@@ -34,4 +34,17 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>hh</id>
+            <name>hh releases repository</name>
+            <url>https://m2.hh.ru/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>hh-snapshots</id>
+            <name>hh snapshots repository</name>
+            <url>https://m2.hh.ru/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
