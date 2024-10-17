@@ -26,10 +26,10 @@
                 <groupId>com.github.danielflower.mavenplugins</groupId>
                 <artifactId>multi-module-maven-release-plugin</artifactId>
                 <version>3.6.4</version>
-                <configuration>
-<!--                    add this server to .m2/settings.xml according to https://danielflower.github.io/multi-module-maven-release-plugin/ssh-authentication.html-->
-                    <serverId>my</serverId>
-                </configuration>
+<!--                <configuration>-->
+<!--&lt;!&ndash;                    add this server to .m2/settings.xml according to https://danielflower.github.io/multi-module-maven-release-plugin/ssh-authentication.html&ndash;&gt;-->
+<!--                    <serverId>my</serverId>-->
+<!--                </configuration>-->
             </plugin>
         </plugins>
     </build>
